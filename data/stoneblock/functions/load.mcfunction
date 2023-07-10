@@ -1,2 +1,3 @@
-execute in stoneblock:stoneworld run tp 0 64 0
-execute in stoneblock:stoneworld run spawnpoint @a 0 64 0
+scoreboard objectives add data dummy 
+execute unless score placed data matches 1 run function stoneblock:place_spawn_area
+scoreboard players set placed data 1

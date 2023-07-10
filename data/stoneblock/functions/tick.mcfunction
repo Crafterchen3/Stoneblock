@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=spawn] at @s run tp @a[dx=25,dy=25,dz=25] 0 64 0
